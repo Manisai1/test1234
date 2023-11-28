@@ -1,0 +1,51 @@
+1)In Python, object-oriented Programming (OOPs) is a programming paradigm that uses objects and classes in programming. It aims to implement real-world entities like inheritance, polymorphisms, encapsulation, etc. in the programming. The main concept of OOPs is to bind the data and the functions that work on that together as a single unit so that no other part of the code can access this data.
+
+2) Every object we create for the class has access to the variables in the class. These variables are called the "Attributes".Python ensures that subclasses come before superclasses and classes earlier in a list of base classes come before classes later in a list of base classes. when searching for attributes, Python looks in object 1st.
+
+3)Class
+
+A class is a template for creating objects in program.	
+A class is a logical entity	
+A class does not allocate memory space when it is created.	
+You can declare class only once.	
+Example: Car.	
+Class generates objects	
+Classes can’t be manipulated as they are not available in memory,
+It doesn’t have any values which are associated with the fields.	
+You can create class using “class” keyword.	
+
+object
+
+The object is an instance of a class.
+Object is a physical entity.
+Object allocates memory space whenever they are created.
+You can create more than one object using a class.
+Example: Jaguar, BMW, Tesla, etc.
+Objects provide life to the class.
+You can create object using “new” keyword in Java.
+Each and every object has its own values, which are associated with the fields.
+They can be manipulated.
+
+4)First argument in a class method is self.When working with classes in Python, the term “self” refers to the instance of the class that is currently being used. It is customary to use “self” as the first parameter in instance methods of a class. Whenever you call a method of an object created from a class, the object is automatically passed as the first argument using the “self” parameter. This enables you to modify the object’s properties and execute tasks unique to that particular instance.
+
+5)The Default __init__ Constructor in python. Constructors are used to initializing the object’s state. The task of constructors is to initialize(assign values) to the data members of the class when an object of the class is created. Like methods, a constructor also contains a collection of statements(i.e. instructions) that are executed at the time of Object creation. It is run as soon as an object of a class is instantiated. The method is useful to do any initialization you want to do with your object.
+
+6)You can use classes to hold class (or shared) attributes or to create class instances. To create an instance of a class, you call the class as if it were a function. For example, consider the following class:
+
+class MyClass:
+    pass
+
+Here, the pass statement is used because a statement is required to complete the class, but no action is required programmatically.
+
+The following statement creates an instance of the class MyClass:
+
+x = MyClass()
+
+7)To create a class, use the keyword class:
+Create a class named MyClass, with a property named x:
+class MyClass:
+  x = 5
+
+8)A superclass is the class from which many subclasses can be created. The subclasses inherit the characteristics of a superclass. The superclass is also known as the parent class or base class.
+ example, Vehicle is the Superclass and its subclasses are Car, Truck and Motorcycle.
+
